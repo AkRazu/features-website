@@ -256,7 +256,40 @@ hr {
   font-weight: 300;
 }
 
+/* --------------
+      WATCH HOW 
+----------------- */
+.watchme-context{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.watchme-context h1{
+  margin-top: 64px;
+  font-weight: 400;
+}
+.watchme-context hr{
+  margin-top: 20px;
+}
+.watchme-context p{
+  color: #000;
+  margin: 30px 186px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.watchme-button{
+  padding: 50px;
+}
+.watchme-button a{
+  background-color: #35361c;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 40px;
+  margin: 0 10px;
+  text-transform: uppercase;
 
+}
 /* ----------
     About Me
 ------------- */
@@ -320,4 +353,29 @@ hr {
     border-radius: 100px;
     
 
+}
+
+
+/* ---------------
+  Footer
+------------------ */
+.footer-section{
+  background-color: #232323;
+  margin-top: 144px;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-social{
+  display: flex;
+}
+.footer-social i{
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  margin-left: 20px;
+  border-radius: 100%;
+  color: white;
 }
