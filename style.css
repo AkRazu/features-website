@@ -197,55 +197,92 @@ hr {
   background-color: #3f4227;
 }
 
-
 /* -----------------
     SPECIALIZED
 -------------------- */
-.specialized-section{
-    padding-top: 90px;
-    padding-bottom: 90px;
-    margin-top: 90px;
-    background-color: #232323;
+.specialized-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  height: 40vh;
+  margin-top: 90px;
+  background-color: #232323;
 }
-h1 {
-    color: #ffffff;
-    text-align: center;
-    font-style: normal;
-    font-size: 2rem;
-    font-weight: 400;
+.specialized-text h1 {
+  color: #ffffff;
+  text-align: center;
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 400;
 }
-.hrdiv{
+.hrdiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.hrdiv hr {
+  border: 1px solid #fff;
+}
+.specialize-option {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 10vh;
+  grid-column-gap: 15px;
+}
+[class^="option-box-"] i {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+[class^="option-box-"] i:hover {
+  color: #cac560;
+}
+[class^="option-box-"] {
+  text-align: center;
+  color: #fff;
+  line-height: 1.5;
+}
+[class^="option-box-"] p {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+[class^="option-box-"] h3 {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+
+/* ----------
+    About Me
+------------- */
+
+.about-me{
+    margin-top: 123px;
     display: flex;
+    background-color:#232323;
+}
+.about-details{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 10px;
 }
-.hrdiv hr{
-    border: 1px solid #fff;
+.social-media{
+    margin-left: 43px;
+    margin-top: 22px;
 }
-.specialize-option{
-    margin-left: 10vw;
-    margin-right: 10vw;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-top: 10vh;
-    grid-gap: 30px;
+.media-icon {
 }
-[class^="option-box-"] i{
-    font-size: 1.6rem;
-    font-weight: 600;
-}[class^="option-box-"] i:hover{
-    color: #cac560;
+.social-media i{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 100px;
+    font-size: 14px;
+
 }
-[class^="option-box-"]{
-    text-align: center;
-    color: #fff;
-    line-height: 1.9;
-}
-[class^="option-box-"] p{
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-[class^="option-box-"] h3{
-    font-size: 1.8em;
-    font-weight: 300;
+.main-details{
+    margin: 0 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
